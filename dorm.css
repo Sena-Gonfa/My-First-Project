@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left:0;
+    display: flex ;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.navbar ul li a:hover{
+    color: #3492fd;
+}
+.navbar ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #3492fd;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 1s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+header{
+    width: 100vw;
+    height: 70vh;
+    background-image: linear-gradient(to top,rgba(4,9,30,0.7)50%,rgba(4,9,30,0.7)50%),url(images/dorm.jpg);
+    background-position: bottom;
+    background-size: 180vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Events */
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #fc036b;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: transparent;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: #fc036b;
+    margin: 20px auto;
+}
+p{
+    color: white;
+    padding: 0px 40px;
+}
+
+.about-img img{
+    border-radius: 3rem 3rem 3rem 3rem;
+    width: 100%;
+    float: left;
+    height: 100%;
+    position: center;
+    padding: 30px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    min-height: 50vh;
+    background-image: linear-gradient(to top,rgba(4,9,30,0.7)50%,rgba(4,9,30,0.7)50%),url(images/hg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #3492fd;
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    flex: 1;
+    text-align: right;
+    float: left;
+    align-items: center;
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.menu ul li a:hover{
+    color: #3492fd;
+}
+.menu ul li::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #3492fd;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 1s;
+
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+.content {
+
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+content.h1 {
+    font-size: 100px;
+    color: slateblue;
+
+    justify-content: center;
+}
+
+content.p {
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
